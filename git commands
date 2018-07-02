@@ -1,0 +1,19 @@
+cd to the desired directory.
+Initializing the git repository is something we need to do only once per projec
+*******
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+$ git config --global user.name "Your Name"
+$ git config --global user.email you@example.com
+*******
+If you want to leave out some files, create .gitignore document and put their names there.
+******
+use git status to view any unapplied changes to the files
+*****
+$ git add --all .
+$ git commit -m "My Django Girls app, first commit"
+****
+go to github.com, copy repo URL
+******
+$ git remote add origin https://github.com/<your-github-username>/my-first-blog.git
+$ git push -u origin master
